@@ -16,4 +16,19 @@ class Dog:
   def play_w_human(self, human):
     human.is_sad = False 
 
+my_pet = Dog('Zorro', 3)
+me = Person('Dmytro', 180)
+friend = Person('Anton', 178)
 
+print(friend.is_sad)
+
+my_pet.play_w_human(friend)
+
+print('Друг сумний -', friend.is_sad)
+print(friend.is_sad)
+
+my_pet.play_w_human(me)
+
+print(me.is_sad)
+print('Я сумний -', me.is_sad)
+print(me.is_sad)
